@@ -42,6 +42,6 @@ describe('Body Check', ()=>{
 it('should have only one "H1"', ()=>{
   cy.get('h1 > .turquoise')
     .should('have.class', 'turquoise')
-    .and('have.css', 'color', 'rgb(245, 128, 121)')
+    .and('have.css', 'color', 'rgb(245, 128, 12)')
   })
 })
